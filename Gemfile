@@ -9,6 +9,8 @@ gem 'sqlite3'#-ruby', '1.2.5', :require => 'sqlite3'
 
 #gem 'sqlite3-ruby', '1.2.5', :group => :development
 
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
 gem 'rack', '1.3.3'
 
 # Gems used only for assets and not required
@@ -30,6 +32,7 @@ group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
   gem 'spork'
+  gem 'factory_girl_rails', '1.0'
 end
 
 # To use ActiveModel has_secure_password
