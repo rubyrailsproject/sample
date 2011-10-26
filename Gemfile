@@ -13,6 +13,8 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 
 gem 'rack', '1.3.3'
 
+gem 'therubyracer-heroku', '0.8.1.pre3'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
