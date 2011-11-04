@@ -7,7 +7,6 @@ before_filter :correct_user, :only => [:edit, :update]
     @users = User.all
   end
 
-  respond_to :json, :xml
   def show
     @user = User.find(params[:id])
     @title = @user.name
