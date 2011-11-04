@@ -9,7 +9,9 @@ gem 'sqlite3'#-ruby', '1.2.5', :require => 'sqlite3'
 
 #gem 'sqlite3-ruby', '1.2.5', :group => :development
 
-gem 'gravatar_image_tag', '1.0.0.pre2'
+gem 'gravatar_image_tag'
+
+gem 'will_paginate'
 
 gem 'rack', '1.3.3'
 
@@ -28,6 +30,7 @@ gem 'jquery-rails'
 group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', :git => "https://github.com/ctran/annotate_models.git" 
+  gem 'faker', '0.3.1'
 end
 
 group :test do
