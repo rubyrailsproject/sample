@@ -12,7 +12,7 @@ respond_to :json, :xml
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find_by_id(params[:id])
     @title = @user.name
   end
 

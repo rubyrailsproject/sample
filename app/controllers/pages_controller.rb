@@ -1,4 +1,10 @@
 class PagesController < ApplicationController
+before_filter :login_or_oauth_required
+respond_to :html, :json, :xml
+
+  def index
+    @pages = Pages.all
+  end
 
   def home
     @title = "Home"
