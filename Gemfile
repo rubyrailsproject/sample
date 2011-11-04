@@ -17,6 +17,8 @@ gem 'rack', '1.3.3'
 
 gem 'therubyracer-heroku', '0.8.1.pre3'
 
+gem 'rabl'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
