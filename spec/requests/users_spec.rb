@@ -38,7 +38,7 @@ describe "Users" do
     end
   end
 
-  describe "sign in/out" do
+    describe "sign in/out" do
 
     describe "failure" do
       it "should not sign a user in" do
